@@ -1,0 +1,14 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   scope: '@flow/testing-ground',
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '6.5.1',
+0 silly argv   '$0': '/home/io/.bun/bin/lerna',
+0 silly argv   pkg: '@flow/ground-component'
+0 silly argv }
+1 notice cli v6.5.1
+2 verbose rootPath /home/io/workspace-stellar/flow
+3 error HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/@flow%2fground-component - Not found
+3 error     at /home/io/.bun/install/global/node_modules/pacote/node_modules/npm-registry-fetch/lib/check-response.js:95:15
+3 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+3 error     at async RegistryFetcher.packument (/home/io/.bun/install/global/node_modules/pacote/lib/registry.js:92:19)

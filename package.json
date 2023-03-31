@@ -1,4 +1,11 @@
 {
   "name": "flow",
-  "packageManager": "yarn@3.5.0"
+  "packageManager": "yarn@3.5.0",
+  "workspaces": [
+    "./packages/"
+  ],
+  "volta": {
+    "node": "19.8.1",
+    "npm": "9.6.3"
+  }
 }

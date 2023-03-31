@@ -1,0 +1,10 @@
+# TODO
+
+TODO Inital Astro framework
+TODO Select canvas library and data store storeon or xsm
+TODO Init typescript
+TODO Add microservices
+
+TODO Make plugin system
+
+

@@ -1,0 +1,37 @@
+{
+  "name": "@flow/testing-ground",
+  "version": "0.0.0",
+  "description": "Testing ground for flow project (i.e stroybook)",
+  "keywords": [
+    "flow-project",
+    "flow",
+    "editor"
+  ],
+  "author": "Gennadiy Popov <popov.gennadiy.87@gmail.com>",
+  "homepage": "https://github.com/westtrade/flow#readme",
+  "license": "MIT",
+  "main": "src/playground.tsx",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/westtrade/flow.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@flow/testing-ground.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/westtrade/flow/issues"
+  },
+  "dependencies": {
+    "@flow/ground-component": "0.0.0"
+  }
+}
